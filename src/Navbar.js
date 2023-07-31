@@ -2,14 +2,14 @@ import { Link } from "react-router-dom"
 
 const Navbar =()=>{
       return (
-            <div>
-                  <Link to="/">Home</Link>
-                  <Link to="/about">About</Link>
-                  <Link to="/careers">Careers</Link>
-                  <Link to="/contact">Contact</Link>
-                  <Link to="/education">Education</Link>
-                  <Link to="/projects">Projects</Link>
-                  <Link to="/skills">Skills</Link>
+            <div class="flex justify-start bg-orange-500">
+                  <Link class="p-2 text-black font-mono font-bold" to="/">Home</Link>
+                  <Link class="p-2 text-black font-mono font-bold" to="/about">About</Link>
+                  <Link class="p-2 text-black font-mono font-bold" to="/careers">Careers</Link>
+                  <Link class="p-2 text-black font-mono font-bold" to="/contact">Contact</Link>
+                  <Link class="p-2 text-black font-mono font-bold" to="/education">Education</Link>
+                  <Link class="p-2 text-black font-mono font-bold" to="/projects">Projects</Link>
+                  <Link class="p-2 text-black font-mono font-bold" to="/skills">Skills</Link>
             </div>
       )
 }
