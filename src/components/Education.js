@@ -3,8 +3,8 @@ function Education() {
       <div class="flex h-screen">
         <div class="basis-1/12">
         </div>
-        <div class="bg-orange-400 basis-10/12 rounded shadow ">
-          <h1 class="p-3 uppercase font-bold font-serif text-4xl">Education</h1>
+        <div class="container">
+          <h1 class="header-primary">Education</h1>
           <div>
           <ul>
                     <li> 

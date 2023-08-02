@@ -15,3 +15,11 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  @apply bg-orange-400 basis-10/12 shadow-2xl overflow-hidden flex flex-col
+};
+
+.header-primary{
+  @apply p-3 uppercase font-bold font-serif text-4xl
+};

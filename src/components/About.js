@@ -3,8 +3,8 @@ function About() {
       <div class="flex h-screen">
         <div class="basis-1/12">
         </div>
-        <div class="bg-orange-400 basis-10/12 rounded shadow overflow-hidden flex flex-col">
-          <h1 class="p-3 uppercase font-bold font-serif text-4xl">About</h1>
+        <div class="container">
+          <h1 class="header-primary">About</h1>
           <div>
             <img src="../img/face.jpg" alt="face" ></img>
           </div>
