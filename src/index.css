@@ -16,10 +16,38 @@ code {
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Styles */
+
 .container {
   @apply bg-orange-400 basis-10/12 shadow-2xl overflow-hidden flex flex-col
 };
 
 .header-primary{
-  @apply p-3 uppercase font-bold font-serif text-4xl
+  @apply m-3 uppercase font-bold font-serif text-4xl
+};
+
+/* Cards-related */
+.card{
+  @apply m-2 ml-8 mr-8 border-2 border-white rounded-xl bg-orange-200 overflow-hidden hover:shadow-lg
+};
+
+.card-title{
+  @apply m-2 ml-8 font-bold text-left text-lg
+};
+
+.card-time{
+  @apply m-2 mr-8 font-bold text-right text-lg
+};
+
+.card-text{
+  @apply ml-8 mr-8 mb-2 font-semibold text-justify
+};
+
+/* List-related */
+.ul-list{
+  @apply list-disc m-2 ml-6 mr-6
+};
+
+.ul-items{
+  @apply ml-2 mr-2 font-semibold text-left
 };

@@ -1,3 +1,5 @@
+import face from '../img/face.jpg'
+
 function About() {
     return (
       <div class="flex h-screen">
@@ -6,10 +8,10 @@ function About() {
         <div class="container">
           <h1 class="header-primary">About</h1>
           <div>
-            <img src="../img/face.jpg" alt="face" ></img>
+            <img src={face} class="h-60 border-2" alt="face" />
           </div>
-          <div>
-            <p class="p-3 font-semibold text-xl text-justify mt-14 indent-10" >
+          <div class="card">
+            <p class="p-3 font-semibold text-xl text-justify indent-10" >
               I was born and raised in Malaysia, where I completed both my primary and secondary education. In 2020, I obtained my bachelor's degree in Mechatronics Engineering, and currently, I am pursuing further education in Computer Science at Oregon State University
             </p>
             <p class="p-3 font-semibold text-xl text-justify indent-10" >

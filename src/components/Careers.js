@@ -4,55 +4,52 @@ function Careers() {
         <div class="basis-1/12">
         </div>
         <div class="container">
-          <h1 class="header-primary">Careers</h1>
-          <div>
-          <ul>
-                    <li>
-                        <div>
-                            Top Glove Corporation Berhad, Klang, Malaysia
-                        </div>
-                        <div>
-                            Sep 2020 - Feb 2021
-                        </div>
-                        <ul>
-                            <li>
-                                Designed and developed 3 PowerApps to automate manual order systems in 3 different factories to improve the efficiency of order systems and staff.
-                            </li>    
-                            <li>
-                                Designed 2 LabVIEW programs for production lines to capture and transfer real-time data to the cloud to enable Industrial 4.0.
-                            </li>    
-                            <li>
-                                Installed 80 sensors on 20 production lines and connected these sensors to IoT for real-time monitoring and performance evaluation.
-                            </li>    
-                            <li>
-                                Partnered with co-workers to write Power BI queries to visualize real-time data on the dashboard for effective monitoring and immediate response to production issues.
-                            </li>
-                        </ul>
+            <h1 class="header-primary">Careers</h1>
+            <div class="card">
+                <div class="flex justify-between">
+                    <div class="card-title">
+                        Top Glove Corporation Berhad, Klang, Malaysia
+                    </div>
+                    <div class="card-time">
+                        Sep 2020 - Feb 2021
+                    </div>
+                </div>
+                <div class="ul-list">
+                    <li class="ul-items">
+                        Designed and developed 3 PowerApps to automate manual order systems in 3 different factories to improve the efficiency of order systems and staff.
                     </li>
-                    <li>
-                        <div >
+                    <li class="ul-items">
+                        Designed 2 LabVIEW programs for production lines to capture and transfer real-time data to the cloud to enable Industrial 4.0.
+                    </li>
+                    <li class="ul-items">
+                        Installed 80 sensors on 20 production lines and connected these sensors to IoT for real-time monitoring and performance evaluation.
+                    </li>
+                    <li class="ul-items">
+                        Partnered with co-workers to write Power BI queries to visualize real-time data on the dashboard for effective monitoring and immediate response to production issues.
+                    </li>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flex justify-between">
+                    <div class="card-title">
                             Intel Products, Kulim, Malaysia
-                        </div>
-                        <div>
+                    </div>
+                    <div class="card-time">
                             Feb 2019 – Aug 2019
-                        </div>
-                        <ul>
-                            <li>
-                                Worked as part of a 3-member team to design and develop a web application by using Angular framework, C#, and Typescript with Agile to reduce development time and cost.
-                            </li>
-                            <li>    
-                                Utilized Postman API test tool to test web applications and resolved issues derived from the test in order to prevent bugs, reduce cost and improve performance.
-                            </li>
-                            <li>    
-                            Provided technical support to maintain web application performance by completing 50 requests using the Kanban task management tool.
-                            </li>
-                            <li>    
-                                Identified and resolved 10 web application vulnerabilities with high and medium risks to improve reliability and enhance security.
-                            </li>
-                        </ul>
+                    </div>
+                </div>
+                <div class="ul-list">
+                    <li class="ul-items">
+                        Worked as part of a 3-member team to design and develop a web application by using Angular framework, C#, and Typescript with Agile to reduce development time and cost.
                     </li>
-                </ul>
-          </div>
+                    <li class="ul-items">
+                        Utilized Postman API test tool to test web applications and resolved issues derived from the test in order to prevent bugs, reduce cost and improve performance.
+                    </li>
+                    <li class="ul-items">
+                        Provided technical support to maintain web application performance by completing 50 requests using the Kanban task management tool.
+                    </li>
+                </div>
+            </div>
         </div>
         <div class="basis-1/12">
         </div>
