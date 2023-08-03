@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Navbar =()=>{
       return (
-            <div class="flex items-center justify-start flex-wrap bg-orange-500">
+            <div class="flex flex-col sm:flex-row items-center justify-start flex-wrap bg-orange-500">
                   {/* <Link class="p-4 text-black font-mono font-bold" to="/">Home</Link>
                   <Link class="p-4 text-black font-mono font-bold" to="/about">About</Link> */}
                   <Link class="p-4 text-black font-mono font-bold" to="/">About</Link>

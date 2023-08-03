@@ -9,7 +9,7 @@ function Skills() {
             <div class="card-title">
               Programming Language
             </div>
-            <div class="ul-list grid grid-cols-8">
+            <div class="ul-list grid sm:grid-cols-8">
               <li class="ul-items">
                 C++
               </li>
@@ -25,7 +25,7 @@ function Skills() {
             <div class="card-title">
               Language
             </div>
-            <div class="ul-list grid grid-cols-6">
+            <div class="ul-list grid sm:grid-cols-6">
               <li class="ul-items">
                 English
               </li>
@@ -38,7 +38,7 @@ function Skills() {
             <div class="card-title">
               Programming Skills
             </div>
-            <div class="ul-list grid grid-cols-4">
+            <div class="ul-list grid sm:grid-cols-4">
               <li class="ul-items">
                 Data Structure
               </li>
@@ -69,7 +69,7 @@ function Skills() {
             <div class="card-title">
               Engineering Skills
             </div>
-            <div class="ul-list grid grid-cols-3">
+            <div class="ul-list grid sm:grid-cols-3">
               <li class="ul-items">
                 Analysis of Circuit
               </li>
@@ -103,7 +103,7 @@ function Skills() {
             <div class="card-title">
               Engineering Software
             </div>
-            <div class="ul-list grid grid-cols-8">
+            <div class="ul-list grid sm:grid-cols-8">
               <li class="ul-items">
                 Matlab
               </li>
