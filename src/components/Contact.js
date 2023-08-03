@@ -9,7 +9,7 @@ function Contact() {
             <div class="card-title">
               Found me on:
             </div>
-            <div class="ul-list">
+            <div class="ul-list items-center">
               <li class="ul-items list-none">
                 <a href="https://github.com/Shaun10020">
                 <svg
