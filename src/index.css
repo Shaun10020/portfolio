@@ -23,7 +23,7 @@ code {
 };
 
 .header-primary{
-  @apply m-3 uppercase font-bold font-serif text-4xl
+  @apply m-3 uppercase font-bold font-serif text-2xl md:text-4xl
 };
 
 /* Cards-related */
@@ -32,15 +32,15 @@ code {
 };
 
 .card-title{
-  @apply m-2 ml-8 font-bold text-left text-lg
+  @apply m-2 ml-8 font-bold text-left md:text-lg
 };
 
 .card-time{
-  @apply m-2 mr-8 font-bold text-right text-lg
+  @apply m-2 mr-8 font-bold text-right md:text-lg
 };
 
 .card-text{
-  @apply ml-8 mr-8 mb-2 font-semibold text-justify
+  @apply ml-8 mr-8 mb-2 font-semibold text-sm text-left md:text-lg md:text-justify
 };
 
 /* List-related */
@@ -49,5 +49,5 @@ code {
 };
 
 .ul-items{
-  @apply ml-2 mr-2 font-semibold text-left
+  @apply ml-2 mr-2 font-semibold text-left text-sm md:text-lg
 };
