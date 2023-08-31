@@ -2,9 +2,7 @@ import face from '../img/face.jpg'
 
 function About() {
     return (
-      <div class="flex h-screen">
-        <div class="basis-1/12">
-        </div>
+      <div class="container-wrapper">
         <div class="container">
           <h1 class="header-primary">About</h1>
           <div class="flex flex-col items-center">
@@ -23,8 +21,6 @@ function About() {
               </p>
             </div>
           </div>
-        </div>
-        <div class="basis-1/12">
         </div>
       </div>
     );

@@ -1,8 +1,6 @@
 function Contact() {
     return (
-      <div class="flex h-screen">
-        <div class="basis-1/12">
-        </div>
+      <div class="container-wrapper">
         <div class="container">
           <h1 class="header-primary">Contact</h1>
           <div class="card">
@@ -38,8 +36,6 @@ function Contact() {
               </li>
             </div>
           </div>
-        </div>
-        <div class="basis-1/12">
         </div>
       </div>
     );

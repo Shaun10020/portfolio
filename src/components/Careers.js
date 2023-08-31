@@ -1,8 +1,6 @@
 function Careers() {
     return (
-      <div class="flex h-screen">
-        <div class="basis-1/12">
-        </div>
+      <div class="container-wrapper">
         <div class="container">
             <h1 class="header-primary">Careers</h1>
             <div class="card">
@@ -50,8 +48,6 @@ function Careers() {
                     </li>
                 </div>
             </div>
-        </div>
-        <div class="basis-1/12">
         </div>
       </div>
     );

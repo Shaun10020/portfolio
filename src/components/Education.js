@@ -1,8 +1,6 @@
 function Education() {
     return (
-      <div class="flex h-screen">
-        <div class="basis-1/12">
-        </div>
+      <div class="container-wrapper">
         <div class="container">
           <h1 class="header-primary">Education</h1>
           <div class="card">
@@ -90,8 +88,6 @@ function Education() {
               </div>
             </div>
           </div>
-        </div>
-        <div class="basis-1/12">
         </div>
       </div>
     );
