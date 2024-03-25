@@ -29,7 +29,11 @@ function Education() {
                 Computer Graphics Shaders,
                 Introduction to Parallel Programming,
                 Operating Systems II,
-                Deep Learning
+                Deep Learning,
+                Probabilistic Graphical Models,
+                Algorithms,
+                Advanced Graphical Models,
+                Network Security
               </span>
             </div>
           </div>
