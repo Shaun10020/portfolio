@@ -59,7 +59,7 @@ function Skills() {
                 NLP with Deep Learning
               </li>
               <li class="ul-items">
-                Operating Systems II
+                Operating Systems 
               </li>
             </div>
           </div>
@@ -99,9 +99,25 @@ function Skills() {
           </div>
           <div class="card">
             <div class="card-title">
+              Graphics Libraries
+            </div>
+            <div class="ul-list grid sm:grid-cols-8">
+              <li class="ul-items">
+                OpenGL
+              </li>
+              <li class="ul-items">
+                OpenCL
+              </li>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
               Engineering Software
             </div>
             <div class="ul-list grid sm:grid-cols-8">
+              <li class="ul-items">
+                SolidWORKS
+              </li>
               <li class="ul-items">
                 Matlab
               </li>

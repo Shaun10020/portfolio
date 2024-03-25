@@ -5,6 +5,34 @@ function Careers() {
             <h1 class="header-primary">Careers</h1>
             <div class="card">
                 <div class="flex justify-between">
+                    <div class="card-title-primary">
+                        Graduate Teaching Assistant
+                    </div>
+                </div>
+                <div class="flex justify-between">
+                    <div class="card-title">
+                        Oregon State University, Corvallis, OR, United States
+                    </div>
+                    <div class="card-time">
+                        Sep 2023 - Current
+                    </div>
+                </div>
+                <div class="ul-list">
+                    <li class="ul-items">
+                    Delivered personalized assistance to students during office hours, addressing questions, explaining concepts, and providing guidance on assignments.
+                    </li>
+                    <li class="ul-items">
+                    Contributed to the instruction of a diverse student body, supporting over **300** individuals in their academic pursuits
+                    </li>
+                </div>
+            </div>
+            <div class="card">
+                <div class="flex justify-between">
+                    <div class="card-title-primary">
+                    Digitalization and Automation Engineer
+                    </div>
+                </div>
+                <div class="flex justify-between">
                     <div class="card-title">
                         Top Glove Corporation Berhad, Klang, Malaysia
                     </div>
@@ -28,6 +56,11 @@ function Careers() {
                 </div>
             </div>
             <div class="card">
+                <div class="flex justify-between">
+                    <div class="card-title-primary">
+                    MIT Solutions Software Engineer (Intern) 
+                    </div>
+                </div>
                 <div class="flex justify-between">
                     <div class="card-title">
                             Intel Products, Kulim, Malaysia

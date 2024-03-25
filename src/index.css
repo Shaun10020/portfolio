@@ -39,12 +39,16 @@ code {
   @apply m-2 ml-8 mr-8 border-2 border-white rounded-xl bg-orange-200 hover:shadow-lg 
 };
 
+.card-title-primary{
+  @apply m-2 mb-0 ml-8 font-bold text-left text-xs md:text-lg
+};
+
 .card-title{
-  @apply m-2 ml-8 font-bold text-left text-xs md:text-lg
+  @apply ml-8 font-bold text-left text-xs md:text-lg;
 };
 
 .card-time{
-  @apply m-2 mr-8 font-bold text-right text-xs md:text-lg
+  @apply mr-8 font-bold text-right text-xs md:text-lg
 };
 
 .card-text{
