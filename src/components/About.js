@@ -1,14 +1,9 @@
-import face from '../img/face.jpg'
-
 function About() {
     return (
       <div class="container-wrapper">
         <div class="container">
           <h1 class="header-primary">About</h1>
           <div class="flex flex-col items-center">
-            <div>
-              <img src={face} class="h-60 border-2" alt="face" />
-            </div>
             <div class="card">
               <p class="card-text" >
                 I was born and raised in Malaysia, where I completed both my primary and secondary education. In 2020, I obtained my bachelor's degree in Mechatronics Engineering, and currently, I am pursuing further education in Computer Science at Oregon State University
