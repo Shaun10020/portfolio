@@ -17,13 +17,16 @@ code {
 @tailwind utilities;
 
 /* Custom Styles */
-.container-wrapper{
-  @apply grid grid-cols-10 h-screen
-}
+.navbar{
+  @apply bg-gray-900 text-gray-200
+};
 
+.container-wrapper{
+  @apply bg-gray-800 grid grid-cols-10 h-screen
+};
 
 .container {
-  @apply bg-orange-400 shadow-2xl col-start-2 col-span-8 flex flex-col overflow-visible
+  @apply bg-gray-900 text-green-400 shadow-2xl col-start-2 col-span-8 flex flex-col overflow-visible
 };
 
 .header-primary{
@@ -36,7 +39,7 @@ code {
 
 /* Cards-related */
 .card{
-  @apply m-2 ml-8 mr-8 border-2 border-white rounded-xl bg-orange-200 hover:shadow-lg 
+  @apply bg-gray-700 text-gray-200 m-2 ml-8 mr-8 border-2 border-white rounded-xl hover:shadow-lg 
 };
 
 .card-title-primary{
