@@ -31,6 +31,7 @@ const Navbar =()=>{
                         <Link class="navbar-item" to="/education">Education</Link>
                         <Link class="navbar-item" to="/projects">Projects</Link>
                         <Link class="navbar-item" to="/skills">Skills</Link>
+                        <Link class="navbar-item" to="/certificates">Certificates</Link>
                         <Link class="navbar-item" to="/contact">Contact</Link>
                   </div>
             </div>

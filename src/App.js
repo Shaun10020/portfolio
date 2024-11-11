@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Certificates from "./components/Certificates";
 import Navbar from './components/Navbar';
 
 import HandGesture from './components/projects/HandGesture/HandGesture';
@@ -25,6 +26,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects/handgesture" element={<HandGesture />} />
+        <Route path="/certificates" element={<Certificates />} />
       </Routes>
     </div>
   );
