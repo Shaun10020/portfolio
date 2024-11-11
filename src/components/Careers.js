@@ -14,7 +14,7 @@ function Careers() {
                         Oregon State University, Corvallis, OR, United States
                     </div>
                     <div class="card-time">
-                        Sep 2023 - Current
+                        Sep 2023 - Jun 2024
                     </div>
                 </div>
                 <div class="ul-list">

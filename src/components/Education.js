@@ -9,7 +9,7 @@ function Education() {
                   Oregon State University, Oregon, USA
               </div>
               <div class="card-time">
-                  Mar 2022 - Current
+                  Mar 2022 - Jun 2024
               </div>
             </div>
             <div class="card-text">
@@ -43,7 +43,7 @@ function Education() {
                   Asia Pacific University, Kuala Lumpur, Malaysia
               </div>
               <div class="card-time">
-                  Apr 2016 - July 2020
+                  Apr 2016 - Jul 2020
               </div>
             </div>
             <div class="card-text">
