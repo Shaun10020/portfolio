@@ -82,16 +82,6 @@ function Education() {
               </span>
             </div>
           </div>
-          <div class="card">
-            <div class="flex justify-between">
-              <div class="card-title">
-                  Chung Hua High School, Seremban, Malaysia
-              </div>
-              <div class="card-time">
-                  Jan 2010 - Dec 2015
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     );

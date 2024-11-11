@@ -47,15 +47,15 @@ code {
 };
 
 .card-title-primary{
-  @apply m-2 mb-0 ml-8 font-bold text-left text-xs md:text-lg
+  @apply text-green-400 m-2 mb-0 ml-8 font-bold text-left text-xs md:text-lg
 };
 
 .card-title{
-  @apply ml-8 font-bold text-left text-xs md:text-lg;
+  @apply text-green-400 ml-8 font-bold text-left text-xs md:text-lg;
 };
 
 .card-time{
-  @apply mr-8 font-bold text-right text-xs md:text-lg
+  @apply text-green-400 mr-8 font-bold text-right text-xs md:text-lg
 };
 
 .card-text{
