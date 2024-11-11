@@ -18,7 +18,11 @@ code {
 
 /* Custom Styles */
 .navbar{
-  @apply bg-gray-900 text-gray-200
+  @apply bg-gray-900 text-gray-200 
+};
+
+.navbar-item{
+  @apply p-4 font-mono font-bold hover:text-green-400
 };
 
 .container-wrapper{
@@ -39,7 +43,7 @@ code {
 
 /* Cards-related */
 .card{
-  @apply bg-gray-700 text-gray-200 m-2 ml-8 mr-8 border-2 border-white rounded-xl hover:shadow-lg 
+  @apply bg-gray-700 text-gray-200 m-2 ml-8 mr-8 border-2 border-gray-400 rounded-xl hover:shadow-lg 
 };
 
 .card-title-primary{

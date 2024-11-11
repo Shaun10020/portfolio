@@ -5,14 +5,17 @@ function About() {
           <h1 class="header-primary">About</h1>
           <div class="flex flex-col items-center">
             <div class="card">
-              <p class="card-text" >
-                I was born and raised in Malaysia, where I completed both my primary and secondary education. In 2020, I obtained my bachelor's degree in Mechatronics Engineering, and currently, I am pursuing further education in Computer Science at Oregon State University
+              <p class="card-text pb-4 pt-2" >
+              Hello! I'm SoonSong Cheok, a passionate Computer Science graduate from Oregon State University with a CGPA of 3.91. Originally from Malaysia, where I completed my education in Mechatronics Engineering, my journey has led me to specialize in software engineering, motivated by a deep interest in problem-solving and innovation.
               </p>
-              <p class="card-text" >
-                For my personality, I am introverted and often described as a quiet person. However, that is just a tip of my personality and I tend to show more when we know each other more. My friends always said I am a different person after we start hanging out, I smile a lot and has sense of humor.
+              <p class="card-text pb-4" >
+              Throughout my studies and professional experiences, I've tackled diverse projects—from debugging and troubleshooting in teaching assistant roles to hands-on security architecture at a large university. I enjoy the challenge of designing efficient, high-performance software, leveraging my skills in Python, C/C++, and machine learning.
               </p>
-              <p class="card-text" >
-                As for my interests, I like reading fictions and watch Sci-Fi TV shows. I found stories to be fascinating as they have different world background, history and such. Moreover, I enjoy learning new skills and knowledge, and always excited to try new stuff.
+              <p class="card-text pb-4" >
+              While I may come across as quiet and introverted at first, my friends would tell you that I'm more lively and humorous once you get to know me. Outside of work, I’m a fan of fiction and Sci-Fi shows, where I find inspiration in unique worlds and stories. I’m also driven to continually expand my skills, always excited by opportunities to learn and try new things.
+              </p>
+              <p class="card-text pb-4" >
+              Currently, I'm seeking a full-time role in software engineering or verification, but I’m open to exploring other areas where my skills and curiosity can make an impact. Let’s connect and see how we can create something innovative together!
               </p>
             </div>
           </div>

@@ -26,12 +26,12 @@ const Navbar =()=>{
                   <div id="navbar" class="hidden md:flex flex-col sm:flex-row items-center justify-start flex-wrap">
                         {/* <Link class="p-4 text-black font-mono font-bold" to="/">Home</Link>
                         <Link class="p-4 text-black font-mono font-bold" to="/about">About</Link> */}
-                        <Link class="p-4 font-mono font-bold" to="/">About</Link>
-                        <Link class="p-4 font-mono font-bold" to="/careers">Careers</Link>
-                        <Link class="p-4 font-mono font-bold" to="/education">Education</Link>
-                        <Link class="p-4 font-mono font-bold" to="/projects">Projects</Link>
-                        <Link class="p-4 font-mono font-bold" to="/skills">Skills</Link>
-                        <Link class="p-4 font-mono font-bold" to="/contact">Contact</Link>
+                        <Link class="navbar-item" to="/">About</Link>
+                        <Link class="navbar-item" to="/careers">Careers</Link>
+                        <Link class="navbar-item" to="/education">Education</Link>
+                        <Link class="navbar-item" to="/projects">Projects</Link>
+                        <Link class="navbar-item" to="/skills">Skills</Link>
+                        <Link class="navbar-item" to="/contact">Contact</Link>
                   </div>
             </div>
       )
