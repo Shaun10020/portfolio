@@ -1,7 +1,6 @@
 function replaceEducation() {
   const filepath = "components/Education.html" ;
-  const component = document.createElement('div');
-  component.id = 'main-content';
+
   fetch(filepath)
   .then(response =>{
       if(!response.ok)
@@ -9,16 +8,16 @@ function replaceEducation() {
       return response.text();
   })
   .then(htmlString=>{
+    const component = document.createElement('div');
+    component.id = 'main-content';
       component.innerHTML = htmlString;
+      const placeholder = document.getElementById('main-content');
+      if (placeholder)
+        placeholder.replaceWith(component);
   })
   .catch(error =>{
       console.error('Error reading the file:', error);
   });
-
-
-  const placeholder = document.getElementById('main-content');
-  if (placeholder)
-    placeholder.replaceWith(component);
 
   return;
   }

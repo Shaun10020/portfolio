@@ -1,8 +1,7 @@
 function replaceCertificates() {
   const filepath = "components/Certificates.html" ;
 
-  const component = document.createElement('div');
-  component.id = 'main-content';
+
   fetch(filepath)
   .then(response =>{
       if(!response.ok)
@@ -10,15 +9,17 @@ function replaceCertificates() {
       return response.text();
   })
   .then(htmlString=>{
+      const component = document.createElement('div');
+      component.id = 'main-content';
       component.innerHTML = htmlString;
+      const placeholder = document.getElementById('main-content');
+      if (placeholder)
+        placeholder.replaceWith(component);
   })
   .catch(error =>{
       console.error('Error reading the file:', error);
   });
 
-  const placeholder = document.getElementById('main-content');
-  if (placeholder)
-    placeholder.replaceWith(component);
 
   return;
 }

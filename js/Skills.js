@@ -1,8 +1,6 @@
 function replaceSkills() {
   const filepath = "components/Skills.html" ;
 
-  const component = document.createElement('div');
-  component.id = 'main-content';
   fetch(filepath)
   .then(response =>{
       if(!response.ok)
@@ -13,12 +11,15 @@ function replaceSkills() {
       component.innerHTML = htmlString;
   })
   .catch(error =>{
+    const component = document.createElement('div');
+    component.id = 'main-content';
       console.error('Error reading the file:', error);
+      const placeholder = document.getElementById('main-content');
+      if (placeholder)
+        placeholder.replaceWith(component);
   });
 
-  const placeholder = document.getElementById('main-content');
-  if (placeholder)
-    placeholder.replaceWith(component);
+
 
   return;
   }

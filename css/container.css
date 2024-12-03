@@ -8,13 +8,13 @@
 }
 
 #container #left-container{
-    width: 30vw;
+    width: 15vw;
 }
 
 #container #main-container{
     background-color: #2b2b3b; /* Charcoal */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    width: 60vw;
+    width: 80vw;
     display:flex;
     flex-direction: column;
     overflow-y:auto;
