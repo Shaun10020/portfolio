@@ -71,7 +71,6 @@ function renderEvents(events){
 
         html += `</div>`;
     }
-    console.log(html);
     return html;
 }
 
