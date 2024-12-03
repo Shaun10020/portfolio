@@ -8,3 +8,5 @@ My personal portfolio website
 4. replace navbar text with icons
 5. Remove contact and add as side bar 
 6. replace html with json, easy to popular data
+7. make ASCII interactive, able to choose which axis to rotate, interval time.
+8. Add navbar border.
