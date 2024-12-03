@@ -52,6 +52,7 @@
     margin:0% 0%;
     padding:1% 2.5%;
     list-style: disc;
+    list-style-position: inside;
 }
 
 .card li{
