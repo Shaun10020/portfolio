@@ -1,9 +1,4 @@
-function replaceProjects() {
-  const Smiley = "components/projects/Smiley.js";
-
-  const component = document.createElement('div');
-  component.id = 'main-content';
-  component.innerHTML = `          
+   
             <h1 class="header-primary">Projects</h1>
             <div class="card">
                 <div class="card-title-secondary">
@@ -66,10 +61,3 @@ function replaceProjects() {
               Developed a smart door security system utilizing a Raspberry Pi 3 integrated with a camera module for facial recognition. The system processes video frames for face detection and is equipped with an Arduino-based RFID module for card reading. Utilizing serial communication, the Arduino sends the card's UID to the Raspberry Pi 3 for verification. If the UID is unregistered, the system instructs the Arduino to keep the sliding door locked and sends an alert to a Node-RED server via MQTT protocol, notifying users of unauthorized access attempts.
               </div>
             </div>
-      `;
-  const placeholder = document.getElementById('main-content');
-  if (placeholder)
-    placeholder.replaceWith(component);
-
-  return;
-  }

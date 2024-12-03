@@ -66,6 +66,7 @@ const Smiley = () => {
   if(!smiley)
   {
     clearInterval(interval_id);
+    interval_id = 0;
     A = 0, B = 0, C = 0;
     return;
   }
