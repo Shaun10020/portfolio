@@ -21,7 +21,7 @@ function replaceAbout() {
     placeholder.replaceWith(component);
 
   return;
-  }
+}
   
 
   
