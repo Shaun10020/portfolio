@@ -1,5 +1,5 @@
 function replaceAbout() {
-  const HeadShot = '../img/headshot.jpg';
+  const HeadShot = '/portfolio/img/headshot.jpg';
 
   const component = document.createElement('div');
   component.id = 'main-content';
