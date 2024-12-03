@@ -1,0 +1,16 @@
+/* button related */
+.button{
+    background-color: #3b82f6; /* Soft Blue */
+    color: #ffffff; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+    background-color: #2563eb; /* Slightly darker blue */
+}

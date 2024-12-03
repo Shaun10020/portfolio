@@ -1,0 +1,72 @@
+/* Card related */
+.card{
+    background-color: #3c3c4c; /* Slate Gray */
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    margin: 1% 5%;
+    padding: 1% 1%;
+}
+
+
+.card-title-primary{
+    color: #76e4f7; /* Cyan */
+    text-align: left;
+    font-weight:bolder;
+    display: block;
+    padding:1% 1%;
+}
+
+.card-title-secondary{
+    color: #76e4f7; /* Cyan */
+    font-weight:bolder;
+    display:flex;
+    justify-content: space-between;
+    padding:0% 1%;
+}
+
+.card-title{
+    text-align: left;
+    display: inline-block;
+}
+
+.card-time{
+    text-align: right;
+    display: inline-block;
+}
+
+.card-text{
+    color: #cccccc; /* Gray */
+    text-align: justify;
+    margin:0;
+    padding:1% 1%;
+    line-height:1.5rem;
+}
+
+.card-text h4{
+    margin:1% 0%;
+    font-weight: bold;
+}
+
+/* Card items */
+.card ul{
+    margin:0% 0%;
+    padding:1% 2.5%;
+    list-style: disc;
+}
+
+.card li{
+    font-weight:normal;
+    text-align: left;
+    line-height:1.5rem;
+}
+
+/* Contact card */
+.card svg{
+    width: 2.5%;
+    height: auto;
+}
+
+.card a{
+    text-decoration: none;
+    color:#e5e5e5;
+}

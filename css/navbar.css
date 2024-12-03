@@ -1,0 +1,42 @@
+/* Navigation Bar related */
+#navbar {
+    background-color: #2c2c3c; /* Deep Navy */
+    color: #e5e5e5; /* Light Gray */
+    text-decoration: none;
+    top: 0;
+    width: 100%;
+    transition: transform 0.3s ease-in-out; /* Smooth hide/show effect */
+    z-index: 100;
+}
+
+#navbar ul{
+    list-style: None;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar li{
+    border: 0.1rem;
+    border-style:solid;
+    border-color: #2c2c3c; /* Deep Navy */
+}
+
+#navbar li:hover{
+    border-color: #464658; /* Muted Grayish Blue */
+}
+
+#navbar button{
+    padding: 0.5rem 1rem; 
+    font-weight: bold;
+    color: #e5e5e5;
+    border:0;
+    background-color: #2c2c3c;
+}
+
+@media (max-width: 480px) {
+    #navbar ul{
+        display: block;
+    }
+}
