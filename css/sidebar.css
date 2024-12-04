@@ -30,7 +30,7 @@
 .side-bar svg{
     width: 25%;
     height: auto;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 @media (max-width: 768px) {
