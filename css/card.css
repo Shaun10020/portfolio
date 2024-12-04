@@ -14,6 +14,7 @@
     font-weight:bolder;
     display: block;
     padding:1% 1%;
+    font-size: larger;
 }
 
 .card-title-secondary{
@@ -22,6 +23,7 @@
     display:flex;
     justify-content: space-between;
     padding:0% 1%;
+    font-size: larger;
 }
 
 .card-title{
@@ -59,15 +61,4 @@
     font-weight:normal;
     text-align: left;
     line-height:1.5rem;
-}
-
-/* Contact card */
-.card svg{
-    width: 2.5%;
-    height: auto;
-}
-
-.card a{
-    text-decoration: none;
-    color:#e5e5e5;
 }

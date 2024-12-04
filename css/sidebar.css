@@ -1,0 +1,45 @@
+/* sidebar related contents */
+.side-bar{
+    background-color: #3c3c4c; /* Slate Gray */
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    width:60%;
+    margin:10% 20%;
+}
+
+.side-bar .sb-title{
+    color: #76e4f7; /* Cyan */
+    font-weight:bolder;
+    text-align: left;
+    padding-left: 5%;
+    font-size:larger;
+}
+
+@media (max-width: 768px) {
+    .side-bar .sb-title{
+        display:none;
+    }
+}
+
+.side-bar ul{
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+/* Contact card */
+.side-bar svg{
+    width: 25%;
+    height: auto;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .side-bar svg{
+        width: 50%;
+    }
+}
+
+.side-bar a{
+    text-decoration: none;
+    color:#e5e5e5;
+}

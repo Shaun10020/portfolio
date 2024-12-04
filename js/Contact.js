@@ -9,9 +9,9 @@ function replaceContact() {
   })
   .then(htmlString=>{
         const component = document.createElement('div');
-        component.id = 'main-content';
+        component.id = 'right-content';
       component.innerHTML = htmlString;
-      const placeholder = document.getElementById('main-content');
+      const placeholder = document.getElementById('right-content');
       if (placeholder)
         placeholder.replaceWith(component);
   })
@@ -24,3 +24,4 @@ function replaceContact() {
   return;
   }
   
+replaceContact();

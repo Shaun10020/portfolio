@@ -1,7 +1,6 @@
-const createComponent = () => {
+function createNavbar (){
     const filepath = "components/Navbar.html" ;
-    const component = document.createElement('nav');
-    component.id = 'navbar';
+
     fetch(filepath)
     .then(response =>{
         if(!response.ok)
@@ -9,20 +8,18 @@ const createComponent = () => {
         return response.text();
     })
     .then(htmlString=>{
+        const component = document.createElement('nav');
+        component.id = 'navbar';
         component.innerHTML = htmlString;
+        const placeholder = document.getElementById('_navbar');
+        if (placeholder) 
+            placeholder.replaceWith(component);
     })
     .catch(error =>{
         console.error('Error reading the file:', error);
     });
 
-    return component;
 };
 
-// Replace the placeholder element with the component
-const placeholder = document.getElementById('_navbar');
-if (placeholder) {
-    const newComponent = createComponent();
-    placeholder.replaceWith(newComponent);
-}
-
+createNavbar();
 replaceAbout();
