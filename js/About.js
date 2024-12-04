@@ -61,9 +61,12 @@ function renderEvents(events){
 
         html += `<div class="timeline-event ${direction}">`;
 
-        html += `<div class="timeline-event title ${direction}">`;
-        html += events[i].title;
-        html += `</div>`;
+        if(events[i].title)
+        {
+            html += `<div class="timeline-event title ${direction}">`;
+            html += events[i].title;
+            html += `</div>`;
+        }
 
         html += `<div class="timeline-event content ${direction}">`;
         html += events[i].content;
