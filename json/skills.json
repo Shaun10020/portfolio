@@ -1,0 +1,10 @@
+{
+    "skills":[
+        {"category":"Programming Language","skill":["C++","Python","C","JavaScript","Java"]},
+        {"category":"Language","skill":["English","Mandarin"]},
+        {"category":"Programming Skills","skill":["Data Structure","Analysis of Algorithms","Computer Graphics Shaders","Parallel Programming","Machine Learning","Deep Learning","NLP with Deep Learning","Operating Systems"]},
+        {"category":"Engineering Skills","skill":["Analysis of Circuit","Digital Electronics","Analogue Electronics","Digital Signal Processing","Thermodynamics and Heat Transfer","Fluid Mechanics","Microprocessor Systems and Embedded Software","Control Engineering","PLC and Pneumatic Systems"]},
+        {"category":"Graphics Libraries","skill":["OpenGL","OpenCL"]},
+        {"category":"Engineering Software ","skill":["SolidWORKS","Matlab","LABView"]}
+    ]
+}

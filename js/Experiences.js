@@ -37,7 +37,6 @@ function populateExperiences(){
         const placeholder = document.getElementById('experiences-placeholder');
         if (placeholder)
           placeholder.replaceWith(component);
-    populateExperiences();
     })
     .catch(error =>{
         console.error('Error reading the file:', error);

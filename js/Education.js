@@ -40,7 +40,6 @@ function populateEducation(){
       if (placeholder)
         placeholder.replaceWith(component);
 
-      populateEducation();
   })
   .catch(error =>{
       console.error('Error reading the file:', error);
