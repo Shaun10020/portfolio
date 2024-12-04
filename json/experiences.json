@@ -1,0 +1,26 @@
+{
+    "experiences":[
+        {"title":"Industry Collaborator","employer":"HP Inc.","location":"Corvallis, OR ","period":"Sep 2023 - Jun 2024","description":[
+            "Trained and analyzed models for <b>4</b> leading deep learning models for image segmentation.",
+            "Developed and optimized <b>Python</b> scripts using <b>Pytorch</b> for training and testing, improving workflow efficiency and model reliability for corporate use.",
+            "Regularly presented technical findings and strategic insights during weekly meetings with HP Inc. project partner."
+            ]},
+        {"title":"Graduate Teaching Assistant","employer":"Oregon State University","location":"Corvallis, OR","period":"Sep 2023 - Jun 2024","description":[
+            "Delivered personalized assistance to students during office hours and provided guidance on assignments in Operating System I and II.",
+            "Contributed to the instruction of a diverse student body, supporting over <b>300</b> individuals in their academic pursuits.",
+            "Hosted weekly sections to facilitate engaging and interactive learning environments for students."
+            ]},
+        {"title":"Digitalization and Automation Engineer","employer":"Top Glove Corporation Berhad","location":"Klang, Malaysia","period":"Sep 2020 - Mar 2021","description":[
+            "Devised and developed <b>3 PowerApps</b> to automate manual order systems in <b>3</b> different factories to improve efficiency of order systems and staff.",
+            "Designed <b>2 LabVIEW</b> programs for production lines to capture and transfer real-time data to the cloud to enable Industrial 4.0.",
+            "Installed <b>80</b> sensors on <b>20</b> production lines and connected these sensors to <b>IOT</b> for real-time monitoring and performance evaluation.",
+            "Partnered with co-workers to write <b>Power BI</b> queries to visualize real-time data on the dashboard for effective monitoring and immediate response to production issues in <b>3</b> factories."
+            ]},
+        {"title":"MIT Solutions Software Engineer (Intern)","employer":"Intel","location":"Kulim, Malaysia","period":"Feb 2019 – Aug 2019","description":[
+            "Worked in a team to design and develop a web application by adopting <b>Angular</b> framework, <b>C#</b>, and <b>Typescript</b> with <b>Agile</b> to reduce development time and cost.",
+            "Employed <b>Postman</b> for API testing, resolving issues to enhance application performance and security.",
+            "Provided technical support to maintain web application performance by completing <b>50</b> requests.",
+            "dentified and resolved <b>10</b> web application vulnerabilities with high and medium risks to raise reliability and enhance security."
+            ]}
+    ]
+}
