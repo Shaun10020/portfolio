@@ -8,4 +8,6 @@ My personal portfolio website
 - clear and comment codes
 - add collapsible navbar for mobile
 - add namecard on the left
+    - name, role, short education background, email, download resume
 - add scrolling enlarge and shrink effect
+- add publication page

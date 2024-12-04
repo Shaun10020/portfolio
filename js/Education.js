@@ -71,6 +71,17 @@ function renderEducation(education){
         html+= `</div>`;
         html+= `</div>`;
 
+        // add secondary text - location and period
+        if(education[i].CGPA)
+        {
+          html+= `<div class="card-title-secondary">`;
+          html+= `<div class="card-title">`;
+          html+="CGPA: ";
+          html+=education[i].CGPA;
+          html+= `</div>`;
+          html+= `</div>`;
+        }
+
         // add card text
         html+= `<div class="card-text">`;
         html+= `<h4>`;
