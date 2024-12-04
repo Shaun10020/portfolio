@@ -1,16 +1,38 @@
 /* button related */
-.button{
-    background-color: #3b82f6; /* Soft Blue */
-    color: #ffffff; /* White */
+.button-primary{
+    background-color: #00adb5;
+    color: #ffffff;
     border: none;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
-    text-align: center;
-    display: inline-block;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.button:hover {
-    background-color: #2563eb; /* Slightly darker blue */
+.button-primary:hover {  background-color: #33c1c9;
 }
+
+.button-secondary{
+    background-color: #6c757d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-secondary:hover {
+    background-color: #5a6268;
+}
+
+.button-danger {
+    background-color: #ff5252;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.button-danger:hover {
+    background-color: #ff4040;
+  }
