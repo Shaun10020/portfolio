@@ -69,17 +69,18 @@ function renderEducation(education){
         html+= `<div class="card-title-time">`;
         html+=education[i].period;
         html+= `</div>`;
+        html+= `</div>`;
 
         // add card text
         html+= `<div class="card-text">`;
         html+= `<h4>`;
         html+= `Related courseworks:`;
         html+= `</h4>`;
-        html+= `<ul class="card-list">`;
-        for(let j=0;j<education[i].length;j+=1)
+        html+= `<ul class="card-list-ul">`;
+        for(let j=0;j<education[i].courseworks.length;j+=1)
         {
-          html+= `<li class="card-list">`;
-          html+=education[i][j];
+          html+= `<li class="card-list-li">`;
+          html+=education[i].courseworks[j];
           html+= `</li>`;
         }
         html+= `</ul>`;
