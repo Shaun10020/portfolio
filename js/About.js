@@ -60,18 +60,19 @@ function renderEvents(events){
             direction = "left";
 
         html += `<div class="timeline-event ${direction}">`;
-
+        html += `<div class="timeline-event ${direction} event-card">`;
         if(events[i].title)
         {
-            html += `<div class="timeline-event title ${direction}">`;
+            html += `<div class="event-title">`;
             html += events[i].title;
             html += `</div>`;
         }
 
-        html += `<div class="timeline-event content ${direction}">`;
+        html += `<div class="event-content">`;
         html += events[i].content;
         html += `</div>`;
 
+        html += `</div>`;
         html += `</div>`;
     }
     return html;

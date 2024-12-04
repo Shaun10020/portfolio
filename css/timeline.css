@@ -56,18 +56,15 @@
     }
 }
 
-/* Timeline event title related */
-.timeline-event .title{
+/* Add arrows pointing to the card */
+.timeline-event .event-card{
+    padding:1rem;
     background-color: #3c3c4c;
-    border-radius: 8px 8px 0 0;
-    font-weight: bolder;
-    padding: 1rem 1rem 0.5rem 1rem;
+    border-radius: 8px;
 }
 
-
-/* Add arrows pointing to the line */
-.timeline-event.left .title::after,
-.timeline-event.right .title::after {
+.timeline-event.left .event-card::after,
+.timeline-event.right .event-card::after {
     content: '';
     position: absolute;
     top: 1rem;
@@ -76,21 +73,26 @@
     border-style: solid;
 }
 
-.timeline-event.left .title::after {
+.timeline-event.left .event-card::after {
     right: -0.8rem;
     border-width: 8px 0 8px 8px;
     border-color: transparent transparent transparent #fff;
 }
 
-.timeline-event.right .title::after {
+.timeline-event.right .event-card::after {
     left: -0.8rem;
     border-width: 8px 8px 8px 0;
     border-color: transparent #fff transparent transparent;
 }
 
+/* Timeline event title related */
+.timeline-event .event-title{
+    font-weight: bolder;
+    padding: 0 0 0.5rem 0;
+}
+
 /* Timeline event content related */
-.timeline-event .content{
+.timeline-event .event-content{
     background-color: #3c3c4c;
-    border-radius: 0 0 8px 8px;
-    padding: 0.5rem 1rem 1rem 1rem;
+    padding: 0.5rem 0 0 0;
 }
