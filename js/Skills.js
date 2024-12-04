@@ -54,7 +54,7 @@ function renderSkills(skills){
       // add card div
       html+= `<div class="card">`;
 
-      // add secondary text - job title and employer
+      // add primary text - category
       html+= `<div class="card-title-primary">`;
       html+=skills[i].category;
       html+= `</div>`;
