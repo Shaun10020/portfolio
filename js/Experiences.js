@@ -24,7 +24,7 @@ function replaceExperiences() {
 }
 
 function populateExperiences(){
-    const filepath = "json/Experiences.json" ;
+    const filepath = "json/experiences.json" ;
     fetch(filepath)
     .then(response =>{
         if(!response.ok)
